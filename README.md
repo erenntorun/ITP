@@ -1,3 +1,3 @@
 # ITP
 
-Not İlk Değişiklik
+Not defterinde ilk değişiklik
