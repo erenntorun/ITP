@@ -384,6 +384,62 @@ a {
 
 
 
+/* Hakkımda Kısmı*/
+#hakkımda .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#hakkımda .col-left {
+	width: 250px;
+	height: 360px;
+}
+#hakkımda .col-right {
+	width: 100%;
+}
+#hakkımda .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+#hakkımda .col-right p {
+	margin-bottom: 20px;
+}
+#hakkımda .col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+#hakkımda .col-left .hakkımda-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#hakkımda .col-left .hakkımda-img img:hover {
+	box-shadow: 0px 0px 12px 0 purple;
+}
+#hakkımda .col-left .hakkımda-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid purple;
+	z-index: -1;
+}
+/* Hakkımda Kısmı Bitti*/
+
+
+
+
+
+
 @keyframes text_reveal_box {
 	50% {
 		width: 100%;
