@@ -572,6 +572,133 @@ a {
 
 
 
+/* Footer Kısmı */
+#footer {
+	background-image: linear-gradient(60deg, #817983 0%, #7f6280eb 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction:column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+.brands h1 {
+	font-size: 2rem;
+	text-transform:none;
+	color: white;
+}
+.brands h1 span {
+	color: purple;
+}
+
+/* Sosyal Medya İkonları */
+.social-media {
+    float: left;
+    width: 50%;
+    padding: 10px;
+	flex-direction:initial;
+	text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.buton {
+    margin-top: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid #d4c067;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.buton-sosyal {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.social-media li{
+	display:inline;
+}
+
+/* Buton Renkleri ve Özellikleri */
+.buton-outline1 {
+    background-color: #060606;
+	border-color: purple;
+}
+.buton-outline2 {
+    background-color: #050505;
+	border-color: purple;
+}
+.buton-outline3 {
+    background-color: #050505;
+	border-color: purple;
+}
+.buton-outline4 {
+    background-color: #070707;
+	border-color: purple;
+}
+
+.buton-outline1:hover {
+    color: #fff;
+    background-color: #1177dd;
+    border-color: #fff;
+}
+.buton-outline2:hover {
+    color: #fff;
+    background-color: #1177dd;
+    border-color: #fff;
+}
+.buton-outline3:hover {
+    color: #fff;
+    background-color: rgba(225, 224, 224, 0.842);
+    border-color: rgb(249, 108, 38);
+}
+.buton-outline4:hover {
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.841);
+    border-color: #fff;
+}
+#inst:hover{
+	color: rgb(249, 108, 38);
+}
+#inst{
+	color:white;
+}
+/* Footer Kısmı Bitti */
+
+
 
 
 @keyframes text_reveal_box {
