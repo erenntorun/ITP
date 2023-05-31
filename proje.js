@@ -1,9 +1,3 @@
-(function() {
-    "use strict";
-
-    window.addEventListener("load",init);
-
-    function init(){
 /* Kutuların Belirli Süre Sonra Gelmesi. */
 ScrollReveal().reveal('.ani1',{delay:250});
 ScrollReveal().reveal('.ani2',{delay:500});
@@ -74,7 +68,3 @@ sr.reveal('.anime-bottom',{
   distance:'25rem',
   delay:600
 });
-    };
-
-
-})();
