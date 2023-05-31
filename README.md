@@ -6,8 +6,10 @@ Numarası: 201502001
 Bölümü: Bilgisayar Mühendisliği
 
 
+
 Not: Ödevi Visual Studio Code' u kullanarak yazdım. HTML,CSS ve JS kullandım SQL kullanamadım.
 Youtube' daki videolardan ve BTK Akademi' deki kurslardan faydalandım.
+
 
 
 Ödev İçeriği: 
@@ -25,5 +27,21 @@ Hakkımda Kısmında sol tarafa fotoğrafım, sağ tarafta kısa bir bilgi ve t�
 İletişim Kısmında telefon email ve adres bilgilerini içeren kutucuklar ekledim ve yine iconlarla güzelleştirdim.
 Form Kısmında adresimi gösteren bir harita ve ad soyad,email,yaş ve kullanıcıdan geri dönüş almak için textarea kısmı ekledim.
 
-    Footer Kısmında:
+    Footer Kısmında: Sosyal medya ikonları koydum bastığımızda benim sosyal medya hesaplarıma gidecek şekilde. Hover ile üzerine
+geldiğimizde renklenmesini sağladım ve bunları header kısmındaki gibi bir navbar'ın içine koydum.  
+
+
+
+    CSS Kısmı: Css kısmında renklendirme boyutlandırma işlevlerinin yanında sitemin telefon ve tablet modu için de çalışmasını 
+sağlayarak responsive bir site oluşturmuş oldum.
+
+
+
+    JS Kısmı: Js kısmında ise belirlediğim kutuların belirli süre aralıklarla gelmesi ve sağdan, soldan, alttan, üstten geçişli bir 
+şekilde gelmesi gibi bazı hareketlendirmeleri yaparak siteyi daha dinamik hale getirdim.
+
+
+
+Not: İnternet üzerinden ücretsiz bir Hosting alarak web sitemi Filezilla aracılığı ile oraya yükledim işte linki;
+www.erentorun.epizy.com
 
